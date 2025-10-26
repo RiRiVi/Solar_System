@@ -103,14 +103,6 @@ main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     color: #333;
-    background-image: url("soap2.jpg"); 
-    background-size: cover;
-    padding: 40px 80px 20px 80px;
-    background-repeat: no-repeat;  
-    background-attachment: fixed;  
-    background-position: center; 
-    padding-top: 60px;
-
 }
 h1{
     font-size: 50px;
@@ -184,13 +176,12 @@ body{
     padding: 20px 20px 20px 20px;
     width: 100%;
     height: auto;
-    border-image-source: url('panel-type-10.png');
 }
 
 .section{
     display: block;              
     margin: 40px auto;          
-    padding: 40px 60px;          
+    padding: 60px 60px 20px 40px;          
     max-width: 80%;            
     line-height: 1.6;            
     color: #fff;             
@@ -213,7 +204,7 @@ span {
     font-weight: bold;      /* жирный шрифт */
     text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
     font-family: "Audiowide", sans-serif;
-    }
+}
 
 
 .img_link{
@@ -221,6 +212,7 @@ span {
     position: relative; /* для абсолютного позиционирования превью */
     cursor: pointer;
 }
+
 .image_pre{
     position: absolute;
     left: 100%; /* справа от контейнера */
@@ -245,3 +237,18 @@ span {
     transform: translate(12px, -50%) scale(1);
     pointer-events: auto;
 }
+
+.sun_text{
+    position: relative; 
+    display: inline-block; 
+    padding: 110px 20px 40px 20px; 
+
+    background-image: url('sun_back2.png'); 
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center -150px;
+
+    font-size: 26px;
+
+}
+
